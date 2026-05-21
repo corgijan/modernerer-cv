@@ -1,4 +1,6 @@
-# moderner-cv
+# modernerer-cv
+
+fork of moderner-cv with improvements ontop, I and maybe only I needed
 
 [![License][license-badge]][license]
 [![CI][ci-badge]][ci]
