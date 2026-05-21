@@ -84,7 +84,8 @@
         socialsList.push(address-social("house", value))
       } else {
         if key not in socialsDict {
-          panic("Unknown social key: " + key)
+          break
+          panic("unknown " + key)
         }
         let (icon, linkPrefix) = socialsDict.at(key)
         socialsList.push(social(icon, linkPrefix, value))
@@ -172,6 +173,7 @@
     right: 15mm,
   ),
   show-footer: true,
+  display-time: "[day].[month].[year]",
   body,
 ) = [
   #set page(
@@ -219,7 +221,7 @@
   #if show-footer [
     #v(1fr, weak: false)
     #name\
-    #datetime.today().display("[month repr:long] [day], [year]")
+    #datetime.today().display(display-time)
   ]
 ]
 
