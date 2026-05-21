@@ -1,6 +1,9 @@
 # modernerer-cv
 
-fork of moderner-cv with improvements ontop, I and maybe only I needed
+fork of moderner-cv with improvements ontop, I and maybe only I needed.
+
+
+IF YOU USE THIS TEMPLATE; DROP A fontawesome.otf in the root folder. THX
 
 [![License][license-badge]][license]
 [![CI][ci-badge]][ci]
